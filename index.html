@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人簡介</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .main img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        .main h1 {
+            margin-top: 0;
+        }
+        .main p {
+            line-height: 1.6;
+        }
+        .skills, .experience, .education {
+            margin-top: 20px;
+        }
+        .skills ul, .experience ul, .education ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .experience li, .education li {
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-left: #77aaff 5px solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>個人簡介</h1>
+            <ul>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#experience">經歷</a></li>
+                <li><a href="#education">教育背景</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main">
+            <img src="your-photo.jpg" alt="個人照片" width="150">
+            <h1>您的姓名</h1>
+            <p>職位: 您的職位</p>
+            <p>聯繫方式: 您的聯繫方式</p>
+            <section id="about">
+                <h2>關於我</h2>
+                <p>這裡是您的個人介紹，描述您的背景、興趣和專業技能。</p>
+            </section>
+            <section id="skills" class="skills">
+                <h2>技能</h2>
+                <ul>
+                    <li>技能1</li>
+                    <li>技能2</li>
+                    <li>技能3</li>
+                </ul>
+            </section>
+            <section id="experience" class="experience">
+                <h2>經歷</h2>
+                <ul>
+                    <li>經歷1</li>
+                    <li>經歷2</li>
+                    <li>經歷3</li>
+                </ul>
+            </section>
+            <section id="education" class="education">
+                <h2>教育背景</h2>
+                <ul>
+                    <li>學校1</li>
+                    <li>學校2</li>
+                    <li>學校3</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
